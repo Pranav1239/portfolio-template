@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+.container-Main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.fitem-Box-main{
+    background-color: transparent;
+    margin: 2rem;
+    margin-top: 6rem;
+}
+
+.fitem-Box-main h1{
+    margin-top: 2rem;
+    font-size: 6rem;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.fitem-Box-main p{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    width: 30rem;
+}
+
+.fitem-Box-main span{
+    color: blueviolet;
+    
+}
+
+.fitem-Box-main img {
+    position: relative;
+    animation: moveUpDown 2s infinite;
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        top: 0;
+    }
+    50% {
+        top: 20px;
+    }
+}
+
+.Icons{
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin-right: 1.2rem;
+    color: blueviolet;
+}
+
+#Button-Mail{
+    padding: 15px 30px;
+    border-radius: 50px;
+    background-color: rgb(138, 43, 226);
+    color: #000;
+    cursor: pointer;
+    border: none;
+    margin-right: 1.2rem;
+}
+
+#height-section-1{
+    margin-bottom: 4rem;
+}
+
+.home-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fitem-home2{
+    width: 30vw;
+    height: 50vh;
+    background-color: transparent;
+    margin: 2rem;
+}

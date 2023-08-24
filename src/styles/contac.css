@@ -1,0 +1,33 @@
+.contact-form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background-color: white;
+    color: purple;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #eee;
+  }
+  
