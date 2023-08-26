@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const PORT = 3040;
 
 mongoose
-  .connect("mongodb://127.0.0.1:27017/test", {
+  .connect("mongodb://127.0.0.1:27017/Portfolio", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
@@ -30,6 +30,7 @@ const server = express();
 server.use(cors);
 server.use(bodyParser.json());
 
+//Contact post
 server.post("/contact", async (req, res) => {
   const { name, email, subject, reason } = req.body;
   const ContactProfile = new ContactModel();
